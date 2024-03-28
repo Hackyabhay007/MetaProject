@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width:767px){
+    .labelLine{display: block; width: 100%; margin-bottom: 5px;}
+    .labelLine + select{width: 100%;}
+    .eyeIcon{right: 35px;}
+}
+  
+  @media only screen and (max-width:575px){
+    
+  }
